@@ -2,11 +2,19 @@
 import { RouterLink, RouterView } from 'vue-router'
 import TheSidebar from '@/components/TheSidebar.vue'
 import Services from '@/services/services'
-Services.getClients()
+import TheMain from '@/views/TheMain.vue'
+async function gg() {
+  await Services.getClients()
+}
+gg()
 </script>
 
 <template>
-  <div><TheSidebar /></div>
+  <div class="app_container"><TheSidebar /><TheMain /></div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.app_container {
+  display: flex;
+}
+</style>
