@@ -25,7 +25,7 @@ export default class Services {
 
   static async getClient(id) {
     try {
-      const response = await fetch('../data/clients.json', {
+      const response = await fetch('data/clients.json', {
         headers: {
           Accept: 'application/json',
           'Content-Type': 'application/json'
