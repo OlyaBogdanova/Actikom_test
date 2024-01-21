@@ -1,35 +1,19 @@
-# test190124
+# Тестовое задание
+1. Инструкция по установке
+  * скачать архив
+  * распаковать
+  * npm install
+  * npm run dev
+2. Также приложение развернуто на Gh-pages, ссылка: [olyabogdanova.github.io/Actikom_test/](https://olyabogdanova.github.io/Actikom_test/)https://olyabogdanova.github.io/Actikom_test/
 
-This template should help get you started developing with Vue 3 in Vite.
+3. Реализовано:
+  * вывод всех клиентов из файла json  в таблицу
+  * добавление нового пользователя (при попытке отправки формы с пустыми полями будет ошибка)
+  * удаление пользователя при переходе на его личную страничку при щелчке на иконке корзины
+  * адаптив
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+4. Не реализовано:
+   * сохранение в locale storage не реализовано. Проблем с этим нет, просто нет времени на это уже:(
+   * не идеальные стили и адаптив
+   * валидацию полей в форме добавления при наличии времени можно сделать красивее)
+   
